@@ -36,7 +36,7 @@ class User(
     }
 
     private fun adminEventPublish(eventPublisher: ApplicationEventPublisher) {
-        eventPublisher.publishEvent(UserAdminEvent(this, this.name))
+        eventPublisher.publishEvent(UserAdminEvent(this.name))
     }
 
     private fun couponEventPublish(eventPublisher: ApplicationEventPublisher) {

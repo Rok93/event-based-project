@@ -6,4 +6,4 @@ class UserSenderEvent(
     source: Any,
     val email: String,
     val phoneNumber: String
-) : ApplicationEvent(source)
+)
