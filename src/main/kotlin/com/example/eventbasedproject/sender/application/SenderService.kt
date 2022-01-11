@@ -1,4 +1,4 @@
-package com.example.eventbasedproject.sender
+package com.example.eventbasedproject.sender.application
 
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Service
